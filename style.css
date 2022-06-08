@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.underline{
+    width: 50%;
+    margin-bottom:2rem ;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+.container{
+    display: flex;
+    padding: 20px;
+    max-width: 0 auto;
+    max-width: 100%;
+    width: 800px;
+    
+}
+aside{
+    padding: 10px 20px;
+    width: 250px;
+    border-right: 1px solid black;
+}
+button{
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 10px ;
+    border: 1px royalblue solid;
+    padding: .7rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    background: wheat;
+}
+main{
+    flex: 1;
+    padding: 10px 20px;
+    
+}
+h2{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px;
+    background-color: burlywood;
+}
+/* helpful in showing entire wealth */
+h3{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin:  20px 0 0;
+    background-color: bisque
+}
+/* person */
+.person{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
